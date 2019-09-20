@@ -1,0 +1,1191 @@
+
+# create four investors 
+
+Sucess ( new Investor created ) 
+
+Sucess ( new Investor created ) 
+
+Sucess ( new Investor created ) 
+
+Sucess ( new Investor created ) 
+
+# attempt to create duplicate investor 
+
+Duplivate Investor 
+
+# create five cryptocurrencies 
+
+Success(new Cryptocurrency created )
+
+Success(new Cryptocurrency created )
+
+Success(new Cryptocurrency created )
+
+Success(new Cryptocurrency created )
+
+Success(new Cryptocurrency created )
+
+# attempt to create duplicate cryptocurrency 
+
+Duplicate Cryptocurrency!
+
+# successful mines 
+
+Successful Mine 
+
+Successful Mine 
+
+Successful Mine 
+
+Successful Mine 
+
+Successful Mine 
+
+Successful Mine 
+
+Successful Mine 
+
+Successful Mine 
+
+# investor not found 
+
+Not Found 
+
+# currency not found 
+
+Not Found 
+
+# insufficient funds - CRY4 
+
+ Insufficient funds 
+
+# insufficient funds - CRY1 
+
+ Insufficient funds 
+
+# trade - currency not found - CRY7 
+
+Not Found in Trade !
+
+# trade - investor not found - invten 
+
+Not Found in Trade !
+
+# trade - multiple not founds - only needs to detect one 
+
+Not Found in Trade !
+
+# trade - insufficient funds for one investor - held 
+
+Insufficient Funds in  Trade  
+
+# trade - insufficient funds for one investor - not held 
+
+Insufficient Funds in  Trade  
+
+# trade - insufficient funds for both investors - held - only needs to detect one 
+
+Insufficient Funds in  Trade  
+
+# trade - insufficient funds for both investors - not held - only needs to detect one 
+
+Insufficient Funds in  Trade  
+
+# trade - insufficient CAD 
+
+Insufficient Funds in  Trade  
+
+# trade - same trader 
+
+Same Investor
+
+# trade - multiple errors - only needs to report one 
+
+Not Found in Trade !
+
+# successful trade - both cryptos, both new 
+
+Success Trade 
+
+# successful trade - both cryptos, both existing 
+
+Success Trade 
+
+# successful trade - one CAD - new currency 
+
+Success Trade 
+
+# successful trade - one CAD - existing currency 
+
+Success Trade 
+
+# successful trade - both cryptos same 
+
+Success Trade 
+
+# some .. uh .. more trades. 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+Success Trade 
+
+# successful trade - investor is traded out of a currency 
+
+Success Trade 
+
+# nonexistent crypto report 
+
+Not Found
+
+# report all cryptos 
+
+CryptoCurrency:name='CRYPTO1', symbol='CRY1', available Unit =100  :
+	Blockchain {  	
+	Mine:Invetsor =InvestorOne, CryptoCurrency=CRYPTO1, Quantity=500}
+		
+	Mine:Invetsor =InvestorTwo, CryptoCurrency=CRYPTO1, Quantity=400}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO5, quantity1=100, quantity2=5}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorThree, currency1=CRYPTO1, currency2= , quantity1=200, quantity2=500}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2= , quantity1=100, quantity2=500}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=101, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO1, quantity1=100, quantity2=101}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorThree, currency1=CRYPTO1, currency2=CRYPTO3, quantity1=100, quantity2=300}
+	}
+ok 
+The Block chain is  ok 
+
+CryptoCurrency:name='CRYPTO2', symbol='CRY2', available Unit =0  :
+	Blockchain {  	
+	Mine:Invetsor =InvestorOne, CryptoCurrency=CRYPTO2, Quantity=1000}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO2, currency2=CRYPTO3, quantity1=100, quantity2=100}
+	}
+ok 
+The Block chain is  ok 
+
+CryptoCurrency:name='CRYPTO3', symbol='CRY3', available Unit =500  :
+	Blockchain {  	
+	Mine:Invetsor =InvestorThree, CryptoCurrency=CRYPTO3, Quantity=100}
+		
+	Mine:Invetsor =InvestorThree, CryptoCurrency=CRYPTO3, Quantity=200}
+		
+	Mine:Invetsor =InvestorTwo, CryptoCurrency=CRYPTO3, Quantity=200}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO2, currency2=CRYPTO3, quantity1=100, quantity2=100}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorThree, currency1=CRYPTO1, currency2=CRYPTO3, quantity1=100, quantity2=300}
+	}
+ok 
+The Block chain is  ok 
+
+CryptoCurrency:name='CRYPTO4', symbol='CRY4', available Unit =1000  :
+	Blockchain { Empty}
+ok 
+The Block chain is  ok 
+
+CryptoCurrency:name='CRYPTO5', symbol='CRY5', available Unit =980  :
+	Blockchain {  	
+	Mine:Invetsor =InvestorTwo, CryptoCurrency=CRYPTO5, Quantity=10}
+		
+	Mine:Invetsor =InvestorOne, CryptoCurrency=CRYPTO5, Quantity=10}
+		
+	Trade:Trader1 =InvestorOne, Trader2 =InvestorTwo, currency1=CRYPTO1, currency2=CRYPTO5, quantity1=100, quantity2=5}
+	}
+ok 
+The Block chain is  ok 
+
+# nonexistent report investor 
+
+ Investor not found 
+
+# report all investors 
+
+Name: InvestorOne , userId :invone,cash on hand :2000 .  
+	 Currency Owned : CRYPTO3 ,amount : 400
+	CRYPTO5 ,amount : 15
+	CRYPTO2 ,amount : 900
+	CRYPTO1 ,amount : 1
+	
+
+Name: InvestorTwo , userId :invtwo,cash on hand :500 .  
+	 Currency Owned : CRYPTO2 ,amount : 100
+	CRYPTO3 ,amount : 100
+	CRYPTO5 ,amount : 5
+	CRYPTO1 ,amount : 599
+	
+
+Name: InvestorThree , userId :invthree,cash on hand :500 .  
+	 Currency Owned : CRYPTO1 ,amount : 300
+	CRYPTO3 ,amount : 0
+	
+
+Name: InvestorFour , userId :invfour,cash on hand :0 .  
+	 Currency Owned :Empty
+
+# END 
+
+
+
+DONE
